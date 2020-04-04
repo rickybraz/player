@@ -1,1 +1,2 @@
-# player
+# Projeto player
+Este é um projeto que pensei após fazer o curso de JS, CSS e HTML no canal Curso em Vídeo do Prof. Gustavo Guanabara...
