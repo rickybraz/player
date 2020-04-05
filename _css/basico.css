@@ -1,0 +1,88 @@
+/*
+    Cores
+    #5B6C5D -> Cinza
+    #091540 -> Azul escuro
+    #50C5B7 -> Azul claro
+    #FFAD05 -> Amarelo
+    #FBF5F3 -> Branco
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Oxanium&display=swap');
+
+body{
+    font-family: Oxanium;
+    font-size: large;
+    background-color: #21242B;
+    width: 1200pt;
+    color: #FBF5F3;
+    margin: 5px auto auto auto;
+    box-shadow: 0px 0px 10px #50C5B7;
+    padding: 15px;    
+}
+
+header#cabecalhoTopo{
+    position: relative;
+    border-bottom: 1px #FBF5F3 dotted;
+}
+
+header#cabecalhoTopo img#Ilogo{
+    width: 80px;
+}
+
+header#cabecalhoTopo img#Ilog{
+    width: 32px;
+    position: absolute;
+    top: 20px;
+    margin-left: 1040pt;
+}
+
+header#cabecalhoTopo input{
+    width: 1300px;
+    border: 0px;
+    font-size: larger;
+    font-family: Audiowide;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20pt;
+}
+
+section#Painel {
+    display: block;
+    float: right;
+}
+
+aside#menu {
+    display: block;
+    float: left;
+    border-right: 1px #FBF5F3 dotted;
+    padding-right: 40px;
+}
+
+aside#menu nav#MenuOpcoes{
+    font-size: 25px;    
+}
+
+aside#menu ul{
+    display: block;
+    list-style: none;
+    }
+
+aside#menu ul li{
+    height: 60px;
+}
+
+footer#rodape {
+    border-top: 1px #FBF5F3 dotted;
+    display: block;
+    clear: both;
+}
+
+div#propaganda {
+    background-image: url(../_imagens/bannerpropaganda.jpg);
+    height: 100px;
+    width: 480px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

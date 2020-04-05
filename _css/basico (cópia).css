@@ -1,0 +1,67 @@
+/*
+    Cores
+    #5B6C5D -> Cinza
+    #091540 -> Azul escuro
+    #50C5B7 -> Azul claro
+    #FFAD05 -> Amarelo
+    #FBF5F3 -> Branco
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Oxanium&display=swap');
+
+body{
+    font-family: Oxanium;
+    font-size: large;
+    
+}
+
+div#interface {
+    /* Formatação geral do site */
+    background-color: rgb(32, 46, 34);
+    width: 1200pt;
+    color: #FBF5F3;
+    margin: -9px auto 0px auto;
+    box-shadow: 0px 0px 10px #50C5B7;
+    padding: 15px;
+}
+
+/* Formatação do cabeçalho */
+header#cabecalho{
+    position: relative;
+    border-bottom: 1px #FBF5F3 dotted;
+}
+
+header#cabecalho img#logo{
+    width: 80px;
+}
+
+header#cabecalho img#log{
+    width: 32px;
+    position: absolute;
+    top: 20px;
+    margin-left: 1100pt;
+}
+
+header#cabecalho input{
+    /*Campo de busca*/
+    width: 1400px;
+    font-size: larger;
+    font-family: Audiowide;
+    box-shadow: 0px 0px 5px #50C5B7;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20pt;
+}
+
+/* Formatação do menu lateral */
+div.menu_lateral{
+    font-size: larger;
+    font-weight: 400;
+}
+
+div.menu_lateral ul{
+    list-style: none;
+}
+}
+
