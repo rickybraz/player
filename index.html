@@ -26,7 +26,6 @@
             Duração
             Favoritar
         Letra  da musica
-
     </section>
 
     <aside id="menu">
@@ -42,22 +41,27 @@
     </aside>
 
     <footer id="rodape">
+        <div id="player">
+            <!--Tocador-->
+            <i class="fa fa-step-backward hvr-icon" onclick="musicBack()"></i>
+            <i class="fa fa-play hvr-icon" onclick="musicPlay()"></i>
+            <!-- <i class="fa fa-pause hvr-icon" onclick="musicPlay()"></i> -->
+            <i class="fa fa-step-forward hvr-icon" onclick="musicNext()"></i>
+            <i class="fa fa-volume-up hvr-icon" onclick="musicVol()"></i>
+            <i class="fa fa-star hvr-icon" onclick="musicBest()"></i>
+        </div>
+
         <div id="propaganda">
             <!--Aba de propaganda-->
             Banner
         </div>
-        <div id="player">
-            <!--Tocador-->
-            Proximo randomico
-            Proximo sequencial
-            Retorna
-            Play/stop
-            Avanço
-            volume
-            Favoritar
-    
-        </div>
+
+
     </footer>
 
+
+
+    <!--Chama o JS-->
+    <script src="_js/chamadas.js"></script>
 </body>
 </html>

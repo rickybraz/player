@@ -1,14 +1,7 @@
-/*
-    Cores
-    #5B6C5D -> Cinza
-    #091540 -> Azul escuro
-    #50C5B7 -> Azul claro
-    #FFAD05 -> Amarelo
-    #FBF5F3 -> Branco
-
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Audiowide|Oxanium&display=swap');
+@import url('hover/hover.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
 
 body{
     font-family: Oxanium;
@@ -85,4 +78,18 @@ div#propaganda {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+footer#rodape {
+    
+}
+
+footer#rodape div#player {
+    text-align: center;
+    display: block;
+    font-size: 29px;
+}
+
+footer#rodape div#player i {
+    margin: 10px;
 }
