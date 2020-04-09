@@ -18,72 +18,49 @@ body#inicial{
 
 }
 
-header#cabecalhoTopo{
-    position: relative;
+nav#Menu {
     border-bottom: 1px #FBF5F3 dotted;
+    margin-bottom: 30px;
 }
 
-header#cabecalhoTopo img#Ilogo{
+table#MenuSuperior{
+    margin-left: 40px;
+    margin-bottom: 0px;
+    border: 0px;
+}
+img#Ilogo{
     width: 80px;
 }
 
-header#cabecalhoTopo img#Ilog{
+img#Ilog{
     width: 32px;
-    position: absolute;
-    top: 20px;
-    margin-left: 1040pt;
+    margin-left: 60px;
 }
 
-header#cabecalhoTopo input{
+input#busca{
     width: 1300px;
     border: 0px;
     font-size: larger;
     font-family: Audiowide;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 20pt;
+    margin-left: 20px;
+    padding-top: 0px;
 }
 
-nav#Menu {
+table#MenuOpcoes{
+    width: 1400px;
+    margin-left: 250px;
     font-size: 25px;
-    display: block;
-    margin-left: 400px;
+    margin-top: 0px;    
 }
 
-nav#Menu ul{
-    list-style: none;
+table#MenuOpcoes tr td#estilo{
+    color: yellowgreen;
 }
 
-nav#Menu ul li{
-    float: left;
-    margin-right: 70px;
-}
 
 section#Painel {
     display: block;
     float: right;
-}
-
-
-aside#menu {
-    display: none;
-    /* display: block; */
-    float: left;
-    border-right: 1px #FBF5F3;
-    padding-right: 40px;
-}
-
-aside#menu nav#MenuOpcoes{
-    font-size: 25px;    
-}
-
-aside#menu ul{
-    display: block;
-    list-style: none;
-    }
-
-aside#menu ul li{
-    height: 60px;
 }
 
 iframe#painel{
