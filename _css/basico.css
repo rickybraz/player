@@ -57,6 +57,14 @@ table#MenuOpcoes tr td#estilo{
     color: yellowgreen;
 }
 
+table#menuAlfabetico {
+    
+    width: 100%;
+    margin: 0px auto;
+    border-bottom: 1px #FBF5F3 dotted;
+    border-top: 1px #FBF5F3 dotted;
+    
+}
 
 section#Painel {
     display: block;
@@ -96,7 +104,7 @@ footer#rodape div#player i {
     margin: 10px;
 }
 
-body#padraiframe{
+body.padraiframe{
     margin: auto;
 }
 
@@ -112,4 +120,89 @@ ul#playlistLista li {
     margin: 10px;
     border: 5px;
     text-align: center;
+}
+
+section#tocador aside{
+    float: left;
+    margin-left: 20px;
+
+}
+
+section#tocador aside img{
+    width: 280px;
+    height: 280px;
+
+}
+
+section#tocador aside p{
+    text-align: center;
+
+}
+
+section#tocador aside p#pDisco{
+    font-size: 34px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+section#tocador aside p#pAutor{
+    font-size: 20px;
+    margin: 5px;
+}
+
+section#tocador aside p#pAno{
+    font-size: 13px;
+    margin: 5px;
+    font-family: Audiowide;
+
+}
+
+section#tocador article#tocadorCentro{
+    width: 42%;
+    margin-left: 320px;
+    position: absolute; 
+  
+}
+
+section#tocador article#tocadorCentro table{
+    width: 100%;
+}
+
+section#tocador article#tocadorCentro table tr.tocadorFaixa{
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+}
+
+td.alinhaDireita{
+    text-align: right;
+}
+
+td.alinhaCentro{
+    text-align: center;
+}
+
+td.alinhaEsquerda{
+    text-align: left;
+}
+
+section#tocador article#tocadorDireito{
+    width: 30%;
+    margin-left: 1000px;
+    position: absolute;
+    border-left: 1px #FBF5F3 dotted;
+    padding-left: 10px;
+
+}
+
+p#tituloMusica{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: Audiowide;
+}
+
+p#letraMusica{
+    font-size: 15px;
 }

@@ -1,0 +1,18 @@
+Ainda falta fazer
+
+
+        A Fazer HTML
+        - Fazer os links
+        - Botão de voltar
+        - Tirar favoritos
+        - Tirar o login
+
+        A Fazer CSS
+        - Aparencia dos links
+
+        A Fazer JS
+        - Aparecer o botão play quando passar o mouse por cima e clarear a imagem
+        - Automatizar as listas de Estilos / Artistas / Albuns
+        - Trocar as letras das musicas
+        - Ao apertar o botão proximo muda o indicador da musica na playlist / Dados do disco / letra da música
+        - Integrar com planilha excel os dados das musicas cadastradas
