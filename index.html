@@ -15,55 +15,25 @@
                 <tr>
                     <td><img id="Ilogo" src="_imagens/logo.png"></td>
                     <td><input type="search" id="busca" placeholder="Busca" onkeypress="busca(event)"></td>
-                    <td><a href="_paginas/acesso.html"><img id="Ilog" src="_imagens/login.png"></a></td>
                 </tr>
             </table>
 
             <table id="MenuOpcoes">
                 <tr>
-                    <td id='estilo'>Estilos</td>
-                    <td id='artista'>Artistas</td>
-                    <td id='albuns'>Albuns</td>
-                    <td id='favorito'>Favoritos</td>
+                    <td><a href="javascript:EstiloSel()" id='Aestilo'>Estilo</a></td>
+                    <td><a href="javascript:ArtistaAlfa()" id='Aartista'>Artistas</a></td>
+                    <td><a href="javascript:AlbunsAlfa()"  id='Aalbuns'>Albuns</a></td>
                 </tr>
 
             </table>
             <table id="menuAlfabetico">
-                <tr>
-                    <td>A</td>
-                    <td>B</td>
-                    <td>C</td>
-                    <td>D</td>
-                    <td>E</td>
-                    <td>F</td>
-                    <td>G</td>
-                    <td>H</td>
-                    <td>I</td>
-                    <td>J</td>
-                    <td>K</td>
-                    <td>L</td>
-                    <td>M</td>
-                    <td>N</td>
-                    <td>O</td>
-                    <td>P</td>
-                    <td>Q</td>
-                    <td>R</td>
-                    <td>S</td>
-                    <td>T</td>
-                    <td>U</td>
-                    <td>V</td>
-                    <td>X</td>
-                    <td>Y</td>
-                    <td>W</td>
-                    <td>Z</td>
-                </tr>
             </table>
         </nav>
     </header>
 
     <section id="Painel">
         <!--Vai mostrar os dados lado direito-->
-        <iframe src="_paginas/capa.html" frameborder="0" width="1600px" height="550px" id="painel"></iframe>
+        <iframe src="_paginas/bemvindo.html" frameborder="0" width="1600px" height="550px" name="painel1" id="painel"></iframe>
     </section>
     
     <footer id="rodape">
@@ -74,7 +44,6 @@
             <!-- <i class="fa fa-pause hvr-icon" onclick="musicPlay()"></i> -->
             <i class="fa fa-step-forward hvr-icon" onclick="musicNext()"></i>
             <i class="fa fa-volume-up hvr-icon" onclick="musicVol()"></i>
-            <i class="fa fa-star hvr-icon" onclick="musicBest()"></i>
         </div>
 
         <div id="propaganda">

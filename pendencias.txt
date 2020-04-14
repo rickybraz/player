@@ -4,11 +4,7 @@ Ainda falta fazer
         A Fazer HTML
         - Fazer os links
         - Botão de voltar
-        - Tirar favoritos
-        - Tirar o login
 
-        A Fazer CSS
-        - Aparencia dos links
 
         A Fazer JS
         - Aparecer o botão play quando passar o mouse por cima e clarear a imagem

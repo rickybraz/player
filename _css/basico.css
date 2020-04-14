@@ -18,6 +18,11 @@ body#inicial{
 
 }
 
+a {
+    color: #FBF5F3;
+    text-decoration-line: none;
+}
+
 nav#Menu {
     border-bottom: 1px #FBF5F3 dotted;
     margin-bottom: 30px;
@@ -58,7 +63,6 @@ table#MenuOpcoes tr td#estilo{
 }
 
 table#menuAlfabetico {
-    
     width: 100%;
     margin: 0px auto;
     border-bottom: 1px #FBF5F3 dotted;
@@ -205,4 +209,43 @@ p#tituloMusica{
 
 p#letraMusica{
     font-size: 15px;
+}
+
+div#bemvindo {
+    font-family: Oxanium;
+    font-size: large;
+    color: #FBF5F3;
+    text-align: center;
+}
+
+div#bemvindo h1 {
+    color: yellowgreen;
+    margin-bottom: 70px;
+}
+
+h1.tituloSel{
+    color: yellowgreen;
+    font-family: Oxanium;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: larger;
+    text-align: center;
+}
+
+table.tabelaSel{
+    width: 80%;
+    margin: auto;
+}
+
+td.tdSel {
+    border-bottom: 1px #FBF5F3 dotted;
+    font-family: Audiowide;
+    font-size: medium;
+}
+td.tdBranco {
+    padding-left: 20px;
+}
+
+a.aSel {
+    text-decoration-line: none;
 }
