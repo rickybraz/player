@@ -1,0 +1,26 @@
+var geral [musica,cod_artista, cod_abum, duracao, estilo, foto, letra, mp3]
+** Montar a playlist
+- pode receber 3 variavel (cod_artista, Cod_album, estilo)
+- Fazer aqui a relação de todas as musicas existentes
+
+if (cod_artista="*" || cod_album="*" || estilo="1") {
+    busca nome do artista
+    busca nome do album
+    return variavel
+}
+
+------------------------------------------------------
+var artista [codigo, nome]
+** Mostar os artistas cadastrados
+** retornar o nome do artista para a função geral
+
+for 1 por 1 {
+    return variavel[indice]
+
+------------------------------------------------------
+var album [codigo, album]
+** Mostra os albuns cadastrados
+** retorna o nome dos albuns para a função geral
+
+for 1 por 1 {
+    return variavel[indice]

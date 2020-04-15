@@ -66,11 +66,16 @@ function ArtistaAlfa(){
     <td><a href='javascript:ArtistaSel(25)'>W</td>
     <td><a href='javascript:ArtistaSel(26)'>Z</td>
     </tr>`
+    document.getElementById('painel').src = "_paginas/branco.html"
 
 }
 
 function ArtistaSel(letra) { 
     document.getElementById('painel').src = "_paginas/artista.html"
+    bdart(letra)
+    var aux = document.getElementById("Ptitulo")
+    aux.innerHTML = "lsdfjalsfjalçf"
+    
 }
 
 function AlbunsAlfa(){
@@ -104,6 +109,7 @@ function AlbunsAlfa(){
     <td><a href='javascript:AlbumSel(25)'>W</td>
     <td><a href='javascript:AlbumSel(26)'>Z</td>
     </tr>`
+    document.getElementById('painel').src = "_paginas/branco.html"
 
 }
 
