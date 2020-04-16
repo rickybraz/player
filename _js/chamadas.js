@@ -71,10 +71,21 @@ function ArtistaAlfa(){
 }
 
 function ArtistaSel(letra) { 
-    document.getElementById('painel').src = "_paginas/artista.html"
     bdart(letra)
-    var aux = document.getElementById("Ptitulo")
-    aux.innerHTML = "lsdfjalsfjalçf"
+    var aux = document.getElementById("painel").document.getElementById('Ptitulo')
+    var aux1 = aux.content
+    window.alert(aux)
+ 
+    /**
+     *  var iframe = document.getElementById("myFrame");
+        var elmnt = iframe.contentWindow.document.getElementsByTagName("H1")[0];
+
+     * document.getElementById('myframe1').contentWindow.document.getElementById('x') 
+         document.getElementById('painel').src = "_paginas/artista.html"
+
+     var aux = document.getElementById("painel").contentWindow.document.getElementById('Ptitulo')
+     */
+    
     
 }
 

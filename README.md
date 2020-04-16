@@ -4,6 +4,5 @@ Este é um projeto que pensei após fazer o curso de JS, CSS e HTML no canal Cur
 
 Fases do projeto: 
 
-Versão 1: Somente visual inicial sem funcionalidade e não responsilvel
-Versão 2: Tornar funcional o player
-Versão 3: Fazer a versão responsivel.
+Projeto "Abandonado" chequei numa encruzinhada pois não consegui resolver pegar o elemento dentro do iframe.
+Comecando outro projeto já com responsividade.
